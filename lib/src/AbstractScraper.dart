@@ -47,9 +47,9 @@ abstract class AbstractScraper {
     return;
   }
 
-  String host()                 => throw NotImplemenetedException('host');
+  String host();
   String title()                => throw NotImplemenetedException('title');
-  int total_time()           => throw NotImplemenetedException('total_time');
+  int total_time()              => throw NotImplemenetedException('total_time');
   String yields()               => throw NotImplemenetedException('yields');
   List<String> ingredients()    => throw NotImplemenetedException('ingredients');
   List<String> instructions()   => throw NotImplemenetedException('instructions');
